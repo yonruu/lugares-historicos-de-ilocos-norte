@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Libre+Baskerville&family=Shizuru&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch';
+    text-decoration: none;
+}
+
+body {
+    background-image: url(frontpage.png);
+    background-size: 1920px 1335px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    padding: 15px 50px;
+    margin-top: 10px;
+    color: beige;
+    justify-content: space-between;
+}
+
+img.icon {
+    border: solid white;
+    border-radius: 50px;
+}
+
+.frontpage {
+    color: beige;
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+button {
+    width: 30%;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    background: beige;
+    font-size: 18px;
+    font-family: 'Libra Baskerville';
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(212, 211, 211);
+    transition: 0.2s;
+}
+
+.frontpic {
+    text-align: center;
+}
+
+.card {
+    align-items: right;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(https://mediaim.expedia.com/destination/1/24fa9700b94f5932aac7574f972dd1e6.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    transition: 0.4s;
+}
+
+h5{
+    color: black;
+}
+
+.card1 {
+    background-image: url(https://images.summitmedia-digital.com/spotph/images/2020/10/12/ilocos-norte-1-1602473060.jpg) ;
+}
+
+.card2 {
+    background-image: url(https://www.bria.com.ph/wp-content/uploads/2022/06/Ilocos-Norte-Tourist-Spots.jpg) ;
+}
+
+.card3 {
+    background-image: url(https://www.philippinetraveler.com/wp-content/uploads/pagudpud-beach-ilocos-norte.jpg) ;
+}
+
+.card:hover {
+    transform: translateY(-10px)
+}
+
